@@ -1,0 +1,35 @@
+.tinderButton{
+    position: fixed;
+    display: flex;
+    bottom: 5vh;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.tinderButton .MuiIconButton-root {
+    background-color: white;
+    box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+}
+
+.RepeatB{
+    padding: 3vh !important;
+    color: burlywood !important;
+}
+
+
+.LeftB{
+    padding: 3vh !important;
+    color: blueviolet !important;
+}
+
+
+.StarB{
+    padding: 3vh !important;
+    color: gold !important;
+}
+
+
+.RightB{
+    padding: 3vh !important;
+    color: red !important;
+}
