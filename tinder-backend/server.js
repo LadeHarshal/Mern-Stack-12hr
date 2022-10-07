@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(Cors());
 
 //DB Config
-mongoose.connect(connection_url); /////
+mongoose.connect(connection_url);       /////
 
 //API endpoints
 app.get('/',(req, res)=>res.status(200).send("Hello People !!"));

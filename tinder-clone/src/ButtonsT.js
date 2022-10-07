@@ -6,6 +6,7 @@ import StarRateIcon from "@material-ui/icons/StarRate";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import FlashOnIcon from "@material-ui/icons/FlashOn";
 import IconButton from "@material-ui/core/IconButton";
+import Card from "./Card.js";
 
 document.body.style.transition ="all 1s";
 function ButtonsT() {
@@ -28,7 +29,9 @@ function ButtonsT() {
           <StarRateIcon fontSize='large'/>
         </IconButton>
 
-        <IconButton className='RightB'>
+        <IconButton className='RightB' onClick={()=>{
+          /////////////////////right swpe function
+        }}>
           <FavoriteIcon fontSize='large'/>
         </IconButton>
 
