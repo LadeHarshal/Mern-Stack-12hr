@@ -1,0 +1,7 @@
+.pane1{
+    width: 0;
+    background: linear-gradient(to right ,#8A2387,#E94057,#f24e21) ;
+    height: 100%;
+    position: absolute;
+    z-index: 90;
+}
