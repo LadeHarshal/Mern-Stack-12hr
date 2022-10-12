@@ -1,7 +1,10 @@
 .pane1{
-    width: 0;
+    top: 0px;
+    height: 100vh;
+    width: 25%;
     background: linear-gradient(to right ,#8A2387,#E94057,#f24e21) ;
-    height: 100%;
     position: absolute;
-    z-index: 90;
+    z-index: 80;
+
 }
+

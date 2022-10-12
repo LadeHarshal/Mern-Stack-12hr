@@ -4,9 +4,11 @@ import Header from './Header';
 import Card from './Card';
 import ButtonsT from './ButtonsT';
 
+
 function App() {
   return (
     <div className="App">
+
       {/* HEADER */}
       <Header />
 
