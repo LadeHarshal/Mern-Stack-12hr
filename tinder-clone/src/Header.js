@@ -3,13 +3,21 @@ import './Header.css';
 import PersonIcon from "@material-ui/icons/Person";
 import IconButton from "@material-ui/core/IconButton";
 import ForumIcon from "@material-ui/icons/Forum";
+import Sidebar from './Sidebar';
 
 function Header() {
-  return (
-    <div className='Header'>
 
-        <IconButton>
-            <PersonIcon fontSize='large' className='profileclick' />
+  const [show,setShow]=React.useState(false)////for sidebar
+
+  return (  
+
+
+    <div className='Header'>
+        {(show)?<Sidebar />:null}
+        <IconButton onClick={()=> setShow(!show)}>
+            <PersonIcon fontSize='large' className='profileclick'/>
+
+          
         </IconButton>
 
 
@@ -22,6 +30,7 @@ function Header() {
 
     </div>
   )
+  
 }
 
-export default Header
+export  default Header

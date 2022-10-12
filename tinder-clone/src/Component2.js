@@ -1,3 +1,4 @@
+import React from "react";
 function Component2() {
     return (
       <div className="Component2">

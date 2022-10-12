@@ -23,14 +23,14 @@ function Card() {
         console.log(direction);
         if (direction === 'right') {
             flashpink();
-            const revert = setTimeout(()=>{
-                document.body.style.backgroundColor ="";
+            setTimeout(()=>{
+                document.body.style.background ="";
             }, 2100);
         }        
         if (direction === 'left') {
             flashgrey();
-            const revert = setTimeout(()=>{
-                document.body.style.backgroundColor ="";
+            setTimeout(()=>{
+                document.body.style.background ="";
             }, 2100);
         }
     };
@@ -54,6 +54,7 @@ function Card() {
                     <div className='image' style={{backgroundImage:`url(${elem.url})`}}> {/* used inline styling and used a variable instead of using or typing the whole url */}
                         <h3>{elem.name}</h3>
                     </div> 
+
                 </TinderCard>
                 ))}
         </div>
@@ -62,7 +63,7 @@ function Card() {
 }
 
 function flashpink() {
-    document.body.style.backgroundColor ="deepPink";
+    document.body.style.background="linear-gradient(to right,#fa215e,#f848a9)";
 };
 function flashgrey() {
     document.body.style.backgroundColor ="gray";

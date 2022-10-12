@@ -1,16 +1,18 @@
 .image{
     position: relative;
-    background-color: aliceblue;
-    width: 600px;
+    background-color: rgb(55, 56, 58);
+    width: 540px;
     padding: 20px;
     max-width: 85vw;
     height: 50vh;
     box-shadow: 0 18 53 0 rgba(0, 0, 0, 2);
     border-radius: 25px;
     background-position: center;
-    background-size: cover;
-    box-shadow: 0px 10px 40px 0px black;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 8px 40px 0px rgb(22, 22, 22);
 }
+
 
 .Cardcontainer{
     display: flex;
@@ -20,9 +22,9 @@
 }
 
 .image h3{
-    position: absolute;
+    position: fixed;
     color: azure;
-    
+    bottom:20vh;
 }
 
 .swipe{

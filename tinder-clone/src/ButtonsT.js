@@ -4,9 +4,9 @@ import ReplayIcon from "@material-ui/icons/Replay";
 import CloseIcon from "@material-ui/icons/Close";
 import StarRateIcon from "@material-ui/icons/StarRate";
 import FavoriteIcon from "@material-ui/icons/Favorite";
-import FlashOnIcon from "@material-ui/icons/FlashOn";
+// import FlashOnIcon from "@material-ui/icons/FlashOn";
 import IconButton from "@material-ui/core/IconButton";
-import Card from "./Card.js";
+// import Card from "./Card.js";
 
 document.body.style.transition ="all 1s";
 function ButtonsT() {

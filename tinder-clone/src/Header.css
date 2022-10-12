@@ -4,14 +4,10 @@
     justify-content: space-between;
     z-index: 100; /* To always keep it on top  */
 }
-/* 
-.Header__logo{
-    object-fit: contain;
-    height: 40px;
-} */
 
 .profileclick{
     padding: 20px;
+    z-index: 90;
 }
 
 .msgs{
