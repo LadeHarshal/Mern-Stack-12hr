@@ -13,7 +13,7 @@ function Header() {
 
 
     <div className='Header'>
-        <Sidebar />
+        {(show)?<Sidebar />:null}
         <IconButton onClick={()=> setShow(!show)}>
             <PersonIcon fontSize='large' className='profileclick'/>
 
